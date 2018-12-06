@@ -11,20 +11,20 @@ html,body{
   background-color: #ffffff;
   font-family: 'Slabo 27px', serif;
   line-height: 1.5;
-  background-color: #ffeee6;
+  background-color: #ffeeef;
 }
 nav {
   position: fixed;
   min-width: 300px;
   top: 0px;
-  left: 0px;
+  left: -10px;
   width: 300px;
   height: 100%;
   border-right: dashed;
+  border-width: 1px;
   opacity: .8;
   border-color: #666;
-  background-color: #ffcbb3
-;
+  background-color: #ffcbb3;
 }
 header {
   color: #222;
@@ -41,9 +41,11 @@ sub {
   color: #222;
   padding: 18px 0 0 0;
 }
-nav header {
+#nav-header {
   text-transform: uppercase;
-  padding: auto;
+  margin: 0 !important;
+  text-align: left;
+  padding: 10px 0 20px;
 }
 main header{
   margin-top: 20px !important;
@@ -66,11 +68,12 @@ nav li{
   border: 1px solid;
   border-bottom-width: 0px;
   padding: 8px;
-  padding-left: 45px;
+  padding-left: 40%;
   list-style: none;
   position: relative;
-  left:-50px;
-  width:100%;
+  left: -50px;
+  width: 100%;
+  text-align: left;
   font-weight: bold;
 }
 #link5 li {
@@ -99,7 +102,7 @@ section article {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 768px) {
   nav ul{
     border:1px solid;
     height: auto;
@@ -133,13 +136,5 @@ section article {
 @media only screen and (max-width: 400px) {
   main{
     margin-left:-10px;
-  }
-  code{
-    margin-left:-20px;
-    width:100%;
-    padding:15px;
-    padding-left:10px;
-    padding-right:45px;
-    min-width:233px;
   }
 }
