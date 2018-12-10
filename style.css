@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 
 
 html,body{
@@ -8,10 +8,9 @@ html,body{
   width: 100%
   min-width:290px;
   color: #4d4e53;
-  background-color: #ffffff;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Noto Serif TC', serif;
   line-height: 1.5;
-  background-color: #ffeeef;
+  background-color: #F4DED2;
 }
 nav {
   position: fixed;
@@ -22,16 +21,9 @@ nav {
   height: 100%;
   border-right: dashed;
   border-width: 1px;
-  opacity: .8;
+  opacity: .9;
   border-color: #666;
-  background-color: #ffcbb3;
-}
-header {
-  color: #222;
-  margin: 10px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: normal;
+  background-color: #F4B28F;
 }
 sub {
   font-weight: bold;
@@ -46,12 +38,16 @@ sub {
   margin: 0 !important;
   text-align: left;
   padding: 10px 0 20px;
+  font-size: 30px;
+  color: #222;
 }
 main header{
   margin-top: 20px !important;
-  padding: 15px;
+  padding: 10px;
+  color: #222;
+  font-size: 40px;
   text-align: center;
-  background-color: #ffdccc;
+  background-color: #F4B28F;
   border-radius: 20px;
   box-shadow: 0px 0px 5px #222;
   -webkit-box-shadow: 0px 0px 5px #222;
@@ -90,7 +86,7 @@ a:hover {
 }
 main{
   position: absolute;
-  margin-left:310px;
+  margin-left: 310px;
   padding: 20px;
   margin-bottom: 80px;
 }
@@ -103,6 +99,9 @@ section article {
 }
 
 @media only screen and (max-width: 768px) {
+  #nav-header {
+    text-align: center;
+  }
   nav ul{
     border:1px solid;
     height: auto;
