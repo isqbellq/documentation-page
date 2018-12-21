@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 
 
-html,body{
-/*  margin: 0;
-*/  padding: 0;
+html, body, main {
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%
   min-width:290px;
@@ -12,11 +12,15 @@ html,body{
   line-height: 1.5;
   background-color: #F4DED2;
 }
+hr {
+  color: #222 !important;
+  width: 80%;
+}
 nav {
   position: fixed;
+  left: 0px;
   min-width: 300px;
   top: 0px;
-  left: -10px;
   width: 300px;
   height: 100%;
   border-right: dashed;
@@ -27,17 +31,17 @@ nav {
 }
 sub {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 18px !important;
   display: flex;  
   justify-content: center;
   color: #222;
-  padding: 18px 0 0 0;
+  margin: 25px 0 !important;
 }
 #nav-header {
   text-transform: uppercase;
   margin: 0 !important;
   text-align: left;
-  padding: 10px 0 20px;
+  padding: 20px 0;
   font-size: 30px;
   color: #222;
 }
@@ -58,11 +62,8 @@ main header{
 nav ul{
   height: 100%;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 nav li{
-  border: 1px solid;
-  border-bottom-width: 0px;
   padding: 8px;
   padding-left: 40%;
   list-style: none;
@@ -71,9 +72,6 @@ nav li{
   width: 100%;
   text-align: left;
   font-weight: bold;
-}
-#link5 li {
-  border-bottom: 1px solid;
 }
 nav a{
   color: #222;
@@ -86,7 +84,7 @@ a:hover {
 }
 main{
   position: absolute;
-  margin-left: 310px;
+  margin-left: 300px;
   padding: 20px;
   margin-bottom: 80px;
 }
@@ -103,11 +101,7 @@ section article {
     text-align: center;
   }
   nav ul{
-    border:1px solid;
     height: auto;
-  }
-  #link5 li {
-    border-bottom-width: 0;
   }
   nav{
     position: fixed;
@@ -124,9 +118,9 @@ section article {
     border-bottom: 2px solid;
   }
   main{
-    position: relative;
-    margin-left:0px;
-    margin-top: 30%;
+/*    position: relative;
+*/    margin-left:0px;
+    margin-top: 20%;
   }
   main header {
     padding: 0px;
