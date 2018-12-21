@@ -79,8 +79,8 @@ nav a{
   cursor: pointer;
 } 
 a:hover {
-  color: black;
-  text-shadow: 1px 1px 1px #666;
+  color: black !important;
+  text-shadow: 1px 1px 1px #666 !important;
 }
 main{
   position: absolute;
