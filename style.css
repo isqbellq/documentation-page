@@ -12,9 +12,9 @@ html, body, main {
   line-height: 1.5;
   background-color: #F4DED2;
 }
-hr {
-  color: #222 !important;
-  width: 80%;
+#bar {
+  border-top: 1px solid #999 !important;
+  width: 70%;
 }
 nav {
   position: fixed;
@@ -109,6 +109,9 @@ img {
   opacity: 0;
   transition: all .5s;
   border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 26px -4px rgba(34,34,34,0.55);
+  -moz-box-shadow: 10px 10px 26px -4px rgba(34,34,34,0.55);
+  box-shadow: 10px 10px 26px -4px rgba(34,34,34,0.55);
 }
 .active {
   opacity: 1;
@@ -154,5 +157,10 @@ img {
 @media (max-width: 500px) {
   #navigation {
     transform: translateY(-100%);
+  }
+  sub {
+    line-height: 1 !important;
+    margin-left: auto;
+    text-align: center;
   }
 }
