@@ -6,7 +6,6 @@ html, body, main {
   padding: 0;
   height: 100%;
   width: 100%
-  min-width:290px;
   color: #4d4e53;
   font-family: 'Noto Serif TC', serif;
   line-height: 1.5;
@@ -141,7 +140,7 @@ img {
   }
   main {
 /*    position: relative; */    
-    margin-left:0;
+    margin-left: 0;
     margin-top: 0;
     width: 100%;
   }
@@ -159,8 +158,10 @@ img {
     transform: translateY(-100%);
   }
   sub {
-    line-height: 1 !important;
+    line-height: 1.4 !important;
     margin-left: auto;
     text-align: center;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
   }
 }
