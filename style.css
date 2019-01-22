@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 
 html, body, main {
@@ -7,7 +7,7 @@ html, body, main {
   height: 100%;
   width: 100%
   color: #4d4e53;
-  font-family: 'Noto Serif TC', serif;
+  font-family: 'Crimson Text', serif;
   line-height: 1.5;
   background-color: #F4DED2;
 }
