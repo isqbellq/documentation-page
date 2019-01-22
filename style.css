@@ -21,9 +21,8 @@ nav {
   transition: all .4s;
   position: fixed;
   left: 0px;
-  min-width: 300px;
   top: 0px;
-  width: 300px;
+  width: 350px;
   height: 100%;
   border-right: dashed;
   border-width: 1px;
@@ -85,9 +84,14 @@ a:hover {
   color: black !important;
   text-shadow: 1px 1px 1px #666 !important;
 }
+.fas {
+  color: #555;
+  text-shadow: none;
+  padding-right: 5px;
+}
 main{
   position: absolute;
-  margin-left: 300px;
+  margin-left: 350px;
   padding: 20px;
   margin-bottom: 80px;
 }
