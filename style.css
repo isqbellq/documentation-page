@@ -16,7 +16,9 @@ html, body, main {
   width: 70%;
 }
 nav {
-  transition: all .5s;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  transition: all .4s;
   position: fixed;
   left: 0px;
   min-width: 300px;
@@ -29,21 +31,22 @@ nav {
   border-color: #666;
   background-color: #F4B28F;
 }
-sub {
-  font-weight: bold;
-  font-size: 18px !important;
-  display: flex;  
-  justify-content: center;
-  color: #222;
-  margin: 25px 0 !important;
-}
 #nav-header {
   text-transform: uppercase;
+  font-size: 40px !important;
   margin: 0 !important;
   text-align: left;
   padding: 20px 0;
   font-size: 30px;
   color: #222;
+}
+sub {
+  font-weight: bold;
+  font-size: 20px !important;
+  display: flex;  
+  justify-content: center;
+  color: #222;
+  margin: 25px 0 !important;
 }
 main header{
   margin-top: 20px !important;
@@ -91,7 +94,7 @@ main{
 section article {
   color: #4d4e53;
   margin: 15px;
-  font-size: 17px;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 20px;
 }
@@ -118,8 +121,8 @@ img {
   transform: translate(0%) scale(1);
 }
 .show-nav {
-  transition: all .5s;
-  opacity: 0.93;
+  transition: all .4s;
+  opacity: 0.95;
   transform: translateX(0%);
 }
 /*.highlight {
@@ -139,7 +142,7 @@ img {
 @media only screen and (max-width: 768px) {
   #nav-header {
     text-align: left;
-    padding-left: 0px;
+    padding-left: 20px;
   }
   nav ul {
     height: auto;

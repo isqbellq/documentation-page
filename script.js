@@ -27,9 +27,9 @@ links.forEach(a => a.addEventListener("mouseenter", addHighlight));
 const nav = document.querySelector("nav");
 
 function toggleNav() {
-	if(nav.classList.contains("show-nav")){
+	if (nav.classList.contains("show-nav")) {
 		nav.classList.remove("show-nav");
-	}else{
+	} else {
 		nav.classList.add("show-nav");
 	}
 }
