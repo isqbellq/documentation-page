@@ -23,6 +23,20 @@ function addHighlight() {
 
 links.forEach(a => a.addEventListener("mouseenter", addHighlight));
 
+// hide navbar
+const nav = document.querySelector("nav");
+
+function toggleNav() {
+	if(nav.classList.contains("show-nav")){
+		nav.classList.remove("show-nav");
+	}else{
+		nav.classList.add("show-nav");
+	}
+}
+
+window.addEventListener("click", toggleNav);
+
+
 // debounce
 function debounce(func, wait = 15, immediate = true) {
 	let timeout;

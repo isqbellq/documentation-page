@@ -16,6 +16,7 @@ html, body, main {
   width: 70%;
 }
 nav {
+  transition: all .5s;
   position: fixed;
   left: 0px;
   min-width: 300px;
@@ -116,6 +117,11 @@ img {
   opacity: 0.85;
   transform: translate(0%) scale(1);
 }
+.show-nav {
+  transition: all .5s;
+  opacity: 0.93;
+  transform: translateX(0%);
+}
 /*.highlight {
   transition: all 0s;
   border-bottom: 2px solid #222;
@@ -132,24 +138,23 @@ img {
 
 @media only screen and (max-width: 768px) {
   #nav-header {
-    text-align: center;
+    text-align: left;
+    padding-left: 0px;
   }
   nav ul {
     height: auto;
+    padding-left: 25px;
   }
   nav {
-    position: fixed;
-    overflow-y: auto;
-    opacity: 0.97;
-    top: 0;
+    opacity: 0;
     padding: 0;
     margin: 0;
+    transform: translateX(-50%);
+    min-width: 75%;
+    max-width: 80%;
     margin-bottom: 0 !important;
-    width: 100%;
-    max-height: 27%;
-    border: none;
+    border-right: 1px dashed;
     z-index: 1;
-    border-bottom: 2px solid;
   }
   main {
 /*    position: relative; */    
@@ -167,9 +172,9 @@ img {
 }
 
 @media (max-width: 500px) {
-  #navigation {
+  /*#navigation {
     transform: translateY(-100%);
-  }
+  }*/
   sub {
     line-height: 1.4 !important;
     margin-left: auto;
