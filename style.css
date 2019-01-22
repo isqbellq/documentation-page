@@ -85,9 +85,9 @@ a:hover {
   text-shadow: 1px 1px 1px #666 !important;
 }
 .fas {
-  color: #555;
+  opacity: 0.8;
   text-shadow: none;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 main{
   position: absolute;
