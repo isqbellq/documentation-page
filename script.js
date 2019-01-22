@@ -1,5 +1,29 @@
 "use strict"
 
+// highlight links
+const links = document.querySelectorAll("a");
+
+const highlight = document.createElement("span");
+highlight.classList.add("highlight");
+document.body.append(highlight);
+
+function addHighlight() {
+	const coordinates = this.getBoundingClientRect();
+	const coords = {
+		width: coordinates.width,
+		height: coordinates.height,
+		top: coordinates.top + window.scrollY,
+		left: coordinates.left + window.scrollX
+	};
+
+	highlight.style.width = `${coords.width}px`;
+	highlight.style.height = `${coords.height}px`;
+	highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
+}
+
+links.forEach(a => a.addEventListener("mouseenter", addHighlight));
+
+// debounce
 function debounce(func, wait = 15, immediate = true) {
 	let timeout;
 	return function() {
@@ -15,6 +39,7 @@ function debounce(func, wait = 15, immediate = true) {
 	};
 }
 
+// slide images
 const slidingImg = document.querySelectorAll("img");
 
 function checkSlide(e) {
@@ -33,3 +58,4 @@ function checkSlide(e) {
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
+
