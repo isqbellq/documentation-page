@@ -9,7 +9,7 @@ html, body, main {
   color: #4d4e53;
   font-family: 'Crimson Text', serif;
   line-height: 1.5;
-  background-color: #F4DED2;
+  background-color: #EEF9E3;
 }
 #bar {
   border-top: 1px solid #999 !important;
@@ -28,7 +28,7 @@ nav {
   border-width: 1px;
   opacity: .9;
   border-color: #666;
-  background-color: #F4B28F;
+  background-color: #B4D69A;
 }
 #nav-header {
   text-transform: uppercase;
@@ -53,7 +53,7 @@ main header{
   color: #222;
   font-size: 40px;
   text-align: center;
-  background-color: #F4B28F;
+  background-color: #CBEAA6;
   border-radius: 20px;
   box-shadow: 0px 0px 5px #222;
   -webkit-box-shadow: 0px 0px 5px #222;
