@@ -61,11 +61,11 @@ main header{
   -o-box-shadow: 0px 0px 5px #222;
   margin: 0px;
 }
-nav ul{
+nav ul {
   height: 100%;
   overflow-y: auto;
 }
-nav li{
+nav li {
   padding: 8px;
   padding-left: 40%;
   list-style: none;
@@ -75,13 +75,14 @@ nav li{
   text-align: left;
   font-weight: bold;
 }
-nav a{
+nav a {
   color: #222;
   text-decoration: none;
   cursor: pointer;
 } 
 a:hover {
   color: black !important;
+  text-decoration: none !important;
   text-shadow: 1px 1px 1px #666 !important;
 }
 .fas {
