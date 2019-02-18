@@ -83,7 +83,7 @@ nav a {
 a:hover {
   color: black !important;
   text-decoration: none !important;
-  text-shadow: 1px 1px 1px #666 !important;
+  text-shadow: 0.5px 0.5px 0.5px #666 !important;
 }
 .fas {
   opacity: 0.8;
