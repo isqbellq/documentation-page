@@ -183,6 +183,9 @@ img {
   /*#navigation {
     transform: translateY(-100%);
   }*/
+  main {
+    padding: 20;
+  } 
   sub {
     line-height: 1.4 !important;
     margin-left: auto;
