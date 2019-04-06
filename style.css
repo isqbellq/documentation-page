@@ -184,7 +184,7 @@ img {
     transform: translateY(-100%);
   }*/
   main {
-    padding: 20;
+    padding: 20px;
   } 
   sub {
     line-height: 1.4 !important;
