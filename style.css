@@ -55,9 +55,9 @@ main header {
   text-align: center;
   background-color: #CBEAA6;
   border-radius: 20px;
-  -webkit-box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
-  -moz-box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
-  box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+  -webkit-box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+  -moz-box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+  box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
   margin: 0px;
 }
 nav ul {
