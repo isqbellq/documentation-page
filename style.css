@@ -59,7 +59,7 @@ main header {
   -webkit-box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
   -moz-box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
   box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
-  margin: 0px;
+  margin: 0;
 }
 nav ul {
   height: 100%;
