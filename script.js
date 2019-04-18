@@ -37,7 +37,7 @@ function toggleNav() {
 window.addEventListener("click", toggleNav);
 
 
-// debounce
+// debounce function
 function debounce(func, wait = 15, immediate = true) {
 	let timeout;
 	return function() {
